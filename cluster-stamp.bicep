@@ -1672,7 +1672,7 @@ resource mc 'Microsoft.ContainerService/managedClusters@2023-02-02-preview' = {
         count: 3
         vmSize: 'Standard_DS2_v2'
         osDiskSizeGB: 80
-        osDiskType: 'Ephemeral'
+        osDiskType:'Managed'
         osType: 'Linux'
         osSKU: 'Ubuntu'
         minCount: 3
@@ -1706,7 +1706,7 @@ resource mc 'Microsoft.ContainerService/managedClusters@2023-02-02-preview' = {
         count: 2
         vmSize: 'Standard_DS3_v2'
         osDiskSizeGB: 120
-        osDiskType: 'Ephemeral'
+        osDiskType:'Managed'
         osType: 'Linux'
         osSKU: 'Ubuntu'
         minCount: 2
